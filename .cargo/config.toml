@@ -1,0 +1,2 @@
+[env]
+AOC_SESSION = "{{ session }}"

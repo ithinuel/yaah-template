@@ -1,0 +1,17 @@
+[placeholders.with_benchmarks]
+type = "bool"
+prompt = "Want to enable benchmarks?"
+default = true
+
+[placeholders.year]
+type = "string"
+regex = "[0-9]+"
+prompt = "Which year is it?"
+default = "2022"
+
+[placeholders.session]
+type = "string"
+prompt = "What is your AOC session secret?"
+
+[conditional.'!with_benchmarks']
+ignore = [ "benches" ]
