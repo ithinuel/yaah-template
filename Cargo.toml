@@ -9,7 +9,7 @@ license = "MIT/Apache-2.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-yaah = "0.2.1"
+yaah = "0.2.2"
 clap = { version = "4.0", features = ["derive"] }
 {% if with_benchmarks %}
 criterion = "0.4"
